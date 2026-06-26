@@ -1,10 +1,6 @@
-Below is the description of the WPTelegram Google Script in both **English** and **Persian (Farsi)**, following the structure of the provided text.
-
----
-
-### English
-
 # WPTelegram Google Script
+
+> **📚 This documentation is also available in [Persian (Farsi)](README.fa.md).**
 
 You can use this script to bypass the bans on Telegram API by different hosts. Simply send the request to this script instead of the Telegram Bot API after deploying it as a web app and allowing anonymous access.
 
@@ -20,7 +16,7 @@ It accepts both GET and POST requests with the following parameters:
 
 ## How to Deploy
 
-### See the screenshots [below 👇](#file-zzz-screenshots-md)
+### See the screenshots [below 👇](#screenshots)
 
 - Go to [script.google.com](https://script.google.com) and sign in if required.
 - Create a new project and give it a name you love :)
@@ -41,45 +37,8 @@ It accepts both GET and POST requests with the following parameters:
 
 ---
 
-### Persian (Farsi)
-
-# اسکریپت گوگل WPTelegram
-
-شما می‌توانید از این اسکریپت برای دور زدن محدودیت‌های اعمال‌شده بر API تلگرام توسط میزبان‌های مختلف استفاده کنید. کافی است درخواست را به جای API ربات تلگرام، به این اسکریپت ارسال کنید پس از اینکه آن را به عنوان یک برنامه وب مستقر کرده و دسترسی ناشناس را مجاز کرده‌اید.
-
-## پارامترها
-
-این اسکریپت درخواست‌های GET و POST را با پارامترهای زیر می‌پذیرد:
-
-| نام            | نوع        | توضیحات                                                                      |
-|----------------|------------|------------------------------------------------------------------------------|
-| `bot_token`    | رشته       | توکن ربات تلگرام                                                           |
-| `method`       | رشته       | نام متد API ربات تلگرام، به عنوان مثال `sendMessage`                        |
-| `args`         | شیء JSON   | آرگومان‌ها/پارامترهای متد API، به عنوان مثال `{"chat_id":"123","text":"HelloWorld"}` |
-
-## نحوه استقرار
-
-### تصاویر را در [پایین 👇](#file-zzz-screenshots-md) ببینید
-
-- به [script.google.com](https://script.google.com) بروید و در صورت نیاز وارد حساب کاربری خود شوید.
-- یک پروژه جدید ایجاد کنید و نامی که دوست دارید برای آن انتخاب کنید :)
-- باید یک فایل (به طور پیش‌فرض Code.gs) باز شود. محتوای این فایل را حذف کنید.
-- محتوای [**wptelegram-google-script.gs**](https://gist.github.com/manzoorwanijk/ee9ed032caedf2bb0c83dea73bc9a28e#file-wptelegram-google-script-gs) را کپی کرده و در فایل پروژه (Code.gs) جای‌گذاری کنید.
-- روی *ذخیره* (💾) کلیک کنید یا `Ctrl+S` را فشار دهید.
-- روی *"استقرار"* (Deploy) در بالای صفحه کلیک کنید و *"استقرار جدید"* (New deployment) را انتخاب کنید تا یک پنجره باز شود.
-- در پنجره بازشده، روی "انتخاب نوع" ⚙️ کلیک کنید و *"برنامه وب"* (Web app) را انتخاب کنید.
-- در بخش *"برنامه وب"*، برای *اجرا به عنوان*، گزینه *"من (<ایمیل شما>)"* را انتخاب کنید **[مهم]**.
-- در بخش *"چه کسانی دسترسی دارند"، گزینه *"همه"* (Anyone) را انتخاب کنید **[مهم]**.
-- روی *"استقرار"* (Deploy) کلیک کنید تا کادر مجوز باز شود.
-- روی *"مجوز دسترسی"* (Authorize access) کلیک کنید تا اسکریپت مجاز شود.
-- در پنجره بازشده، حساب گوگل خود را انتخاب کنید.
-- اگر هشداری با عنوان "گوگل این برنامه را تأیید نکرده است" مشاهده کردید، مشکلی نیست؛ روی *"پیشرفته"* (Advanced) کلیک کنید و گزینه *"رفتن به <نام برنامه> (ناامن)"* را انتخاب کنید.
-- در صفحه بعدی، روی *"اجازه"* (Allow) کلیک کنید.
-- پس از هدایت مجدد، باید پیام *"استقرار با موفقیت به‌روزرسانی شد"* را ببینید.
-- *"آدرس وب برنامه"* (Web app URL) را کپی کرده و در اپلیکیشن یا افزونه خود جای‌گذاری کنید.
-
----
-## آموزش تصویری 
+<a name="screenshots"></a>
+## Screenshots
 
 ![image](https://user-images.githubusercontent.com/18226415/117548278-b9254880-b051-11eb-887b-ed2098b06d5a.png)
 
