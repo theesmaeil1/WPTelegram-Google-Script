@@ -1,6 +1,6 @@
 // Telegram API Proxy Script
-// Creator: MeTi (@Metiwilson - https://t.me/Metiwilson)
-// Founder & Programmer @iNoevi
+// Creator: MeTi (@theesmaeil - https://t.me/theesmaeil)
+// Founder & Programmer theesmaeil1
 
 function doGet(e) {
   try {
